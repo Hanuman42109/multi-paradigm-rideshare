@@ -1,0 +1,53 @@
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+*.egg-info/
+dist/
+build/
+
+# C
+*.o
+*.a
+*.so
+*.out
+*.exe
+*.dSYM/
+*.su
+*.gch
+
+# OCaml
+*.cm[io]
+*.cmxa
+*.cmx
+*.cma
+*.cmi
+*.annot
+*.o
+*.a
+
+# Directories
+screenshots/
+
+# IDE and Editor
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+.DS_Store
+Thumbs.db
+*.sublime-project
+*.sublime-workspace
+
+# OS
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
