@@ -50,7 +50,7 @@ ocamlopt -o statistics statistics.ml
 
 The OCaml implementation uses only immutable `int list` values and
 higher-order functions (`List.fold_left`, `List.map`, `List.filter`,
-`List.sort`) — there are no `ref` cells, no array mutation, and no loops.
+`List.sort`) - there are no `ref` cells, no array mutation, and no loops.
 
 ### Python (Object-Oriented)
 
@@ -80,11 +80,11 @@ method.
 
 ## Running Online (OnlineGDB)
  
-All three implementations can be run directly in the browser using [OnlineGDB](https://www.onlinegdb.com) — no local installation needed.
+All three implementations can be run directly in the browser using [OnlineGDB](https://www.onlinegdb.com) - no local installation needed.
  
 1. Go to [https://www.onlinegdb.com](https://www.onlinegdb.com)
 2. Select the appropriate language from the dropdown (C, Python 3, or OCaml)
 3. Paste the source code into the editor
 4. Click **Run** to execute and see the output
 
-This is a convenient way to test and take screenshots of the code and its output for documentation or submission purposes.
+This is a convenient way to test and take screenshots of the code and its output for documentation purposes.
